@@ -20,8 +20,5 @@ from calculator.views import recipe_view
 
 urlpatterns = [
     path('<str:recipe_name>/', recipe_view, name='recipe'),
-    # path('omlet/', omlet_view),
-    # path('pasta/', pasta_view),
-    # path('buter/', buter_view),
 
 ]
